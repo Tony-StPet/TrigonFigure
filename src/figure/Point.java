@@ -1,3 +1,5 @@
+package figure;
+
 public class Point {
 
     double x;
@@ -5,7 +7,7 @@ public class Point {
 
     @Override
     public String toString() {
-        return "Point{" +
+        return "Figure.Point{" +
                 "x=" + x +
                 ", y=" + y +
                 '}';

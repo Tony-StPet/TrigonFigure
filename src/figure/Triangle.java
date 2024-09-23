@@ -1,6 +1,6 @@
-import java.util.Scanner;
+package figure;
 
-public class Triangle {
+public class Triangle extends {
     Point a;     Point b;     Point c;
 
 
@@ -27,7 +27,7 @@ public class Triangle {
         }
     @Override
     public String toString() {
-        return "Triangle{" +
+        return "Figure.Triangle{" +
                 "a=" + a +  ", b=" + b + ", c=" + c + '}';
     }
 

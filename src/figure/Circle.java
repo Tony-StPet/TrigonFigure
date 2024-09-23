@@ -1,3 +1,5 @@
+package figure;
+
 public class Circle {
 
         Point center;
@@ -15,7 +17,7 @@ public class Circle {
 
         @Override
         public String toString() {
-            return "Circle{" +
+            return "Figure.Circle{" +
                     "c=" + center +
                     ", r=" + r +
                     '}';

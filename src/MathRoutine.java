@@ -1,6 +1,9 @@
 
+import figure.Point;
+import figure.Triangle;
+
 import java.util.Scanner;
-import java.lang.Math;
+
 public class MathRoutine {
 
     public static void calcTria(){
