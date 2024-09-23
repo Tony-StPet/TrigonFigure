@@ -33,6 +33,7 @@ public class MathRoutine {
         }
         else
             System.out.println("данные точки не образуют треугольника");
+
     }
 
 }
