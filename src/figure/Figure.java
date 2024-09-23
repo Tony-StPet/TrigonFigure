@@ -1,9 +1,6 @@
 package figure;
 
 public abstract class Figure {
-     double  perim;
-    double area;
-
-
-
+    public abstract double perimeter();
+    public abstract double area();
 }

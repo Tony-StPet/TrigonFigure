@@ -1,8 +1,7 @@
 package figure;
 
-public class Triangle extends {
+public class Triangle extends Figure{
     Point a;     Point b;     Point c;
-
 
 
     public Triangle(Point a, Point b, Point c) {
@@ -11,6 +10,13 @@ public class Triangle extends {
         this.c = c;
     }
 
+    public double perimeter(){
+
+        double ab = a.distanceTo(b);
+        double bc = b.distanceTo(c);
+        double ca = c.distanceTo(a);
+        return ab + bc +ca;
+    }
     public double calcPer(){
 
     double ab = a.distanceTo(b);
@@ -18,13 +24,17 @@ public class Triangle extends {
     double ca = c.distanceTo(a);
             return ab + bc +ca;
         }
-        public double calcArea(){
-            double ab = a.distanceTo(b);
-            double bc = b.distanceTo(c);
-            double ca = c.distanceTo(a);
-            double p = (ab+bc+ca)/2;
-            return Math.sqrt((p*(p-ab)*(p-bc)*(p-ca)));
-        }
+
+    public double area(){
+        double ab = a.distanceTo(b);
+        double bc = b.distanceTo(c);
+        double ca = c.distanceTo(a);
+        double p = (ab+bc+ca)/2;
+        return Math.sqrt((p*(p-ab)*(p-bc)*(p-ca)));
+    }
+
+
+
     @Override
     public String toString() {
         return "Figure.Triangle{" +
